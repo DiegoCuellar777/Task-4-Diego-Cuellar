@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympus Gym  |  Raffle</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-div">
+                <a href="../../index.html">Home</a>
+                <a href="./aboutUs.html">About Us</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./prices.html">Prices</a>
+                <a href="./benefits.html">Benefits</a>
+                <a href="#">Raffle</a>
+            </div>
+            <img src="../images/logo.png" alt="logo" class="logo">
+        </nav>
+    </header>
+    <main class="main-raffle">
+        <section class="raffle-section">
+            <h1>Raffle</h1>
+            <h2>Every month in this section you can participate in a raffle.</h2>
+        </section>
+        <div class="main-div-raffle">
+            <div class="div-images-raffle">
+                <img src="../images/image-2.jpg" alt="working Out" class="raffleImgs">
+                <img src="../images/together-2.jpg" alt="working Out 2" class="raffleImgs raffle2">
+            </div>
+            <form action="./show_data.html" method="get">
+                <h3>PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING.</h3>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="Name" required>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="LastName" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="gender">Choose Your Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="">Please select an option</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="Country">Country:</label>
+                <select name="Country" id="Country" required>
+                    <option value="">Please select an option</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="United States">United States</option>
+                </select>
+                <span>Payment Options</span> 
+                <div>
+                    <input type="radio" name="payment" id="cash" value="cash" checked>
+                    <label for="cash">Cash</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment" id="debit" value="debit">
+                    <label for="debit">Debit</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment" id="credit" value="credit">
+                    <label for="credit">Credit</label>
+                </div>
+                <label for="services">Services</label>
+                <input type="text" name="services" id="services" placeholder="What services would you love to win..." required class="services-box">
+                <div>
+                    <input type="checkbox" name="acc" id="accept" required value="Accept">
+                    <label for="accept">I accept terms and conditions...</label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
+    <footer class="raffle-footer">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127240.36720664812!2d-74.2765688027344!3d4.724582500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f83331a6a51ff%3A0x77ae6640caa27eb0!2sAthletic%20gym%20Calle%2080%20-%20Gran%20Granada!5e0!3m2!1ses!2sco!4v1679052681404!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="info-div">
+            <a href="mailto:OlympusGymMH@gmail.com" class="email">OlympusGymMH@gmail.com</a> <a href="tel:+111222111" class="tel">Tel: +111222111</a>
+        </div>
+    </footer>
+</body>
+</html>

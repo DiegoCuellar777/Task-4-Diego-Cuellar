@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+h2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-bar {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    flex-wrap: nowrap;
+}
+
+.nav-div{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 2;
+}
+
+.index-section h1, .index-section h2, .index-section a{
+    background-color: transparent;
+}
+
+.index-section h1{
+    font-size: 2rem;
+    color: orange;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.index-section h2{
+    margin: 1rem 0;
+    color: orange;
+    font-size: 1.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.index-section {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 34rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.index-section a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.img-index {
+    display: none;
+}
+
+.img-index2{
+    display: none;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.index-text{
+    text-align: justify;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 1.5rem;
+    background-image: url(../images/dumbbells.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    color: white;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-section{
+    text-align: center;
+    margin: 4rem 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.div-about-prin {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-div{
+    width: 20%;
+}
+
+.imagenes-about{
+    width: 100%;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    text-align: justify;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.about-section h1, .about-section h2{
+    color: orange;
+}
+
+.img-contact {
+    display: none;
+}
+
+.contact-section {
+    margin-top: 4rem;
+    background-image: url(../images/together.jpg);
+    background-size: cover;
+    background-position:center;
+    width: 90%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact-section h1{
+    font-size: 2rem;
+    color: orange;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: transparent;
+}
+
+.contact-section h2{
+    color: orange;
+    font-size: 1.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-div {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-text {
+    width: 35%;
+    font-size: 1.5rem;
+}
+
+.info-div{
+    width: 35%;
+
+}
+
+.info-div a{
+    font-size: 1.5rem;
+    color: orange;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.prices-section {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+table{
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    background-color: orange;
+    color: black;
+    padding: 0.5rem;
+}
+
+.main-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.div-imsg-benefits{
+    width: 30%;
+}
+
+.imgs-benefits{
+    width: 90%;
+    margin-top: 4rem;
+}
+
+.li-two{
+    margin-top: 14rem;
+}
+
+
+.benefits-section {
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.raffle-section {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.div-images-raffle {
+    width: 30%;
+}
+
+.raffleImgs {
+    width: 100%;
+}
+
+form {
+    background-color: rgba(102, 99, 99, 0.621);
+    padding: 2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-div-raffle{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.services-box{
+    height: 5rem;
+}
+
+.raffle-footer{
+    padding: 2rem 0;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.raffle2 {
+    margin-top: 2rem;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .nav-bar {
+        height: 8rem;
+    }
+    .logo {
+        height: 50%;
+    }
+
+    nav a {
+        margin: 0 0.5rem;
+    }
+
+    .index-section {
+        margin-top: -8rem;
+        width: 100%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        background-size: contain;
+    }
+
+    .index-text{
+        width: 80%;
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .div-about-prin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-div{
+        width: 90%;
+    }
+
+    .contact-section {
+        width: 90%;
+        height: 200px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contact-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .info-div a{
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .info-div{
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid white;
+        background-color: orange;
+        color: black;
+        padding: 0.1rem;
+        font-size: 0.9rem;
+    }
+
+    .benefits-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-imsg-benefits {
+        width: 90%;
+        text-align: center;
+    }
+
+    .div-list {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .li-two{
+        margin-top: 1rem;
+    }
+
+    .benefits-section h1, .benefits-section h2{
+        font-size: 1.5rem;
+    }
+
+    .main-div-raffle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-images-raffle{
+        width: 90%;
+    }
+    form {
+        width: 90%;;
+    }
+
+    .raffle-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa{
+        width: 90%;
+    }
+
+    .raffle-section h1, .raffle-section h2{
+        margin 2rem 0;
+        font-size: 1.5rem;
+    }
+}
